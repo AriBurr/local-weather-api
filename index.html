@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Local Weather</title>
+  <link rel="stylesheet" href="./css/weather_api.css">
+  <link rel="stylesheet" href="./css/weather-icons.min.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+      <div class="weather-info-1">
+      <h1><span id="city"></span><span id="country"></span></h1>
+      <p id="date"></p>
+        <i id="desc"></i>
+        <h2 id="temp"></h2>
+        <button id="convert">Fahrenheit</button>
+      </div>
+      <div class="weather-info-2">
+        <i class="wi wi-sunrise"></i>
+        <p id="sunrise"></p>
+      </div>
+      <div class="weather-info-3">
+        <i class="wi wi-sunset"></i>
+        <p id="sunset"></p>
+      </div>
+    </div>
+
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/weather_api.js"></script>
+</body>
+</html>
